@@ -1,0 +1,46 @@
+.profile{
+    padding: 20px;
+    margin-left: 50px;
+}
+.profile img{
+    border-radius: 6px;
+}
+
+h2{
+    margin-left: 220px;
+    margin-top: -250px;
+    margin-bottom: 500px;
+}
+
+.bio{
+     margin-left: 223px;
+    margin-top: -490px;
+}
+
+.profile-buttons {
+   margin-top: 15px;
+   display: flex;
+} 
+
+.edit-btn{
+    padding: 10px;
+    border: none;
+   background-color: rgb(248, 248, 187);
+     font-size: 0.9rem;
+     cursor: pointer;
+     margin-top: 120px;
+     margin-left: 220px;
+}
+
+.new-post-btn{
+     padding: 10px;
+    border: none;
+     background-color:#000000;
+     color: #ffffff;
+     border-radius: 6px;
+     font-size: 0.9rem;
+     cursor: pointer;
+    position: absolute;
+    left: 1400px;
+    top: 295px;
+}
