@@ -55,20 +55,9 @@ function Profile() {
           <button type="submit">Save</button>
         </form>
       )}
-
-      {/* New Post Form */}
-      {showPostForm && (
-        <form className="profile-form" onSubmit={handlePostSubmit}>
-          <textarea value={postText}
-            onChange={(e) => setPostText(e.target.value)}
-             placeholder="Write your post here...?"
-             rows={4}
-          ></textarea>
-          <button type="submit">Post</button>
-        </form>
-      )}
+       
         </div>
-    
+
     );
 }
 

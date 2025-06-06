@@ -23,6 +23,7 @@ function App() {
     <div className="app">
       <Header />
       <Profile />
+       <hr />
       <div className="spots-grid">
 
         {spots.map((spot, index) => (
@@ -33,6 +34,7 @@ function App() {
         }
 
       </div>
+ <hr />
 
       <footer>2023 © Spots</footer>
 
